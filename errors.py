@@ -2,7 +2,7 @@ class InvalidPlayer(Exception):
     """Raised when the user cannot be found in the API"""
     pass
 
-class InvalidServerIP(Exception):
+class InvalidServer(Exception):
     """Raised when the server cannot be reached"""
     pass
 
